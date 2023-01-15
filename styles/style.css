@@ -231,6 +231,12 @@
 /* Mobile device section   */
 
 @media screen and (max-width: 576px){
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0.8em 0;
+
+    }
   
     nav, nav ul{
         flex-direction: column;

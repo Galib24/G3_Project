@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@400;500&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* primary Button  */
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 10px 50px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FF900E;
+}
+ /* Navigation Bar  */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav ul {
+    display: flex;
+    align-items: flex-start;
+
+}
+.nav li {
+    list-style: none;
+    margin-right: 70px;
+}
+
+/* Group of Architecture  */
+
+.Group-of-architecture{
+    display: flex;
+   text-align: center;  
+   background: rgba(255, 144, 14, 0.1);
+   padding-bottom: 50px;
+}
+.group{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.another_groups{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.first-section-text{
+    margin-left: 500px;
+   
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 40px;
+    
+}
+
+/* Second Section  */
+.second_section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+   
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.quick-list{
+    
+    margin-left: 60px;
+   
+}
+.list{
+    font-size: 45px;
+    margin-bottom: 14px;
+}
+.lorem{
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+/* Third Section  */
+.third-section{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 130px;
+}
+.banner_text{
+
+    display: flex;
+    flex-direction: column;
+}
+.vertical-line{
+    border-radius: 2px;
+    width: 5px; 
+      background-color:  #FF900E;; 
+      height: 100%; 
+      position: absolute; 
+}
+.feature{
+    margin-left: 10px;
+    font-size: 40px;
+}
+.variation{
+    margin-top: 20px;
+}
+.box-shadow{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    width: 586px;
+    height: 171px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px;
+}
+.architect_image{
+    margin-left: 40px;
+}
+.mn{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.div1{
+    
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+    border: 0;
+    padding: 10px 50px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+  border-radius: 8px;
+     position: relative;
+       bottom: 300px;
+       left: 960px;
+ 
+}

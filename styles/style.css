@@ -5,6 +5,10 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+/* primaery color  */
+.gray{
+    color: #727272;
+}
 /* primary Button  */
 .btn-primary {
     color: #FFFFFF;
@@ -107,9 +111,9 @@
 .vertical-line{
     border-radius: 2px;
     width: 5px; 
-      background-color:  #FF900E;; 
-      height: 100%; 
-      position: absolute; 
+    background-color:  #FF900E;; 
+    height: 100%; 
+    position: absolute;
 }
 .feature{
     margin-left: 10px;
@@ -117,6 +121,7 @@
 }
 .variation{
     margin-top: 20px;
+    color: #727272; 
 }
 .box-shadow{
     margin-top: 20px;
@@ -127,6 +132,7 @@
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     padding: 10px;
+    
 }
 .architect_image{
     margin-left: 40px;
@@ -151,3 +157,58 @@
        left: 960px;
  
 }
+/* Fourth Section  */
+.summery_or_projects{
+    margin-left: 310px;
+}
+.facts{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.icons{
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+    
+    gap: 124px;
+}
+.icon{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+     width: 100px;
+    height: 100px;
+    padding: 30px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: width 1s , height 1s, transform 1s;
+    
+}
+.icon:hover{
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+    transform: rotate(755deg);
+}
+/* Fifth section  */
+.sponsers{
+   text-align: center;
+    margin-top: 180px;
+}
+.images_sp{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 40px;
+}
+.oursp{
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+.sps{
+    font-size: 16px;
+    color: #727272; 
+}
+

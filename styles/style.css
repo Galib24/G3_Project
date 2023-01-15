@@ -10,6 +10,9 @@
 .gray{
     color: #727272;
 }
+.clr{
+    color: #FF900E;
+}
 /* primary Button  */
 
 .btn-primary {
@@ -114,7 +117,7 @@
 .vertical-line{
     border-radius: 2px;
     width: 5px; 
-    background-color:  #FF900E;; 
+    background-color:  #FF900E;
     height: 100%; 
     position: absolute;
 }
@@ -249,6 +252,9 @@
         padding: 10px ;
 
     }
+    .first-section-text{
+        margin-right: 20px;
+    }
     .banner-image img{
         flex-direction: column;
         height: 100%;
@@ -256,8 +262,11 @@
         padding: 30px;
     }
     .second_section{
-    padding: 20px;
+    padding: 5px;
     flex-direction: column-reverse;
+    }
+    .quick-list{
+        margin-right: 20px;
     }
     .grid{
         margin-top: 20px;
@@ -295,6 +304,10 @@
    display: none;
 
   }
+  .sf{
+    text-align: center;
+    margin-right: 20px;
+  }
   .summery_or_projects{
     margin-left: 10px;
   }
@@ -312,7 +325,8 @@
   }
   .sps{
     
-     font-size: 10px;
+    margin-left: 10px;
+     font-size: 16px;
   }
    .images_sp{
     padding: 40px;

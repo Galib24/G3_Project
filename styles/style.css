@@ -6,10 +6,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 /* primaery color  */
+
 .gray{
     color: #727272;
 }
 /* primary Button  */
+
 .btn-primary {
     color: #FFFFFF;
     font-weight: 600;
@@ -70,6 +72,7 @@
 }
 
 /* Second Section  */
+
 .second_section{
     
     display: flex;
